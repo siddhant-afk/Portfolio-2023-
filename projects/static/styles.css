@@ -1,0 +1,37 @@
+body{
+    background-color : black;
+    font-family : 'Montserrat',sans-serif;
+    color : white;
+}
+
+a{
+    text-decoration : none;
+}
+.nav-bar{
+    font-family : 'Ubuntu',sans-serif;
+    font-weight : 700;
+    padding-top : 1.5%;
+    font-size : 1.4rem;
+}
+
+.navbar-brand{
+    font-size : 1.6rem;
+    color : white;
+}
+.nav-link{
+
+    background-color:black;
+    border : 1px white solid;
+    border-radius : 10px;
+
+    color : white;
+    font-size : 1.2rem;
+    
+}
+
+.nav-link:hover{
+
+    background-color : white;
+    color : black;
+}
+

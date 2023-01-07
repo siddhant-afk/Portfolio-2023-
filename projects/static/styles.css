@@ -35,3 +35,62 @@ a{
     color : black;
 }
 
+.hero{
+    margin-top : 13%;
+    margin-bottom : 20%;
+    position : relative;
+}
+.hero-heading{
+    font-weight : 700;
+    font-size : 6rem;
+    color : white;
+    position : relative;
+}
+
+
+  
+  .hero::before {
+    /* Highlight color */
+    background-color: #46b96c;
+  
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 60%;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-2deg);
+  }
+h5{
+    color : #59CE8F;
+}
+.hero-subheading {
+    font-weight:700;
+    font-size : 5rem;
+    
+}
+.about{
+    margin-top: 10%;
+}
+.self-img{
+
+    height : 400px;
+    width : 300px;
+    
+}
+
+.section-heading{
+    font-weight : 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-card{
+
+    
+background: rgba( 65, 62, 62, 0.25 );
+padding : 30px;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

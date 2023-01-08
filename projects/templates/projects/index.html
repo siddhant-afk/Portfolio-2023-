@@ -76,12 +76,12 @@
     {% for project in projects %}
     <div class="col-md-4 mt-5">
       <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg img-fluid" style="background-image: url('{{project.image.url}}');">
-
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+       
+          
+          <div class="d-flex flex-column  p-5 pb-3 text-white text-shadow-1 card bg-dark overflow-hidden">
             <ul class="d-flex list-unstyled mt-auto">
               <li class="ms-auto">
-                <img src="{% static 'github-mark.png' %}" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                <img src="{% static 'github-mark.png' %}" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white bg-white github-logo">
               </li>
               
               
@@ -90,7 +90,7 @@
             <p>{{project.description}}</p>
             
           </div>
-        </div>
+       
     </div>
 
   </div>
@@ -106,7 +106,7 @@
   </div>
   
   <div class="text-center mt-5 mb-5">
-    Copyrights 2023©️ : Siddhant Dudhane
+    Copyrights©️ {{ year }} : Siddhant Dudhane
   </div>
 </section>
 </body>

@@ -22,7 +22,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto ">
-             <a  class="nav-link px-5  mx-5" href="#">Blog</a>
+             <a  class="nav-link px-5  mx-5" href="{% url 'all_blogs' %}">Blog</a>
             
               
             </div>
@@ -81,7 +81,7 @@
           <div class="d-flex flex-column  p-5 pb-3 text-white text-shadow-1 card bg-dark overflow-hidden">
             <ul class="d-flex list-unstyled mt-auto">
               <li class="ms-auto">
-                <img src="{% static 'github-mark.png' %}" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white bg-white github-logo">
+                <a target="_blank"  href="{{project.github}}"><img src="{% static 'github-mark.png' %}" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white bg-white github-logo"></a>
               </li>
               
               
